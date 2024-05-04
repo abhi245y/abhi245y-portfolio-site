@@ -15,11 +15,13 @@
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
   <!-- Core theme CSS (includes Bootstrap)-->
   <link href="css/styles.css" rel="stylesheet" />
+
+  <link href="css/proto.css" rel="stylesheet" />
 </head>
 
 <body id="page-top">
   <!-- Navigation-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Clarence Taylor</span>
       <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
@@ -55,51 +57,28 @@
   <!-- Page Content-->
   <div class="container-fluid p-0">
     <!-- About-->
-    <section class="resume-section" id="about">
-      <div class="resume-section-content">
-        <h1 class="mb-0">
-          Abhiram
-          <span class="text-primary"> R L</span>
-        </h1>
-        <div class="subheading mb-5">
-          <i class="fa-solid fa-location-dot fa-sm"></i>
-          India, Kerala
-          <a href="mailto:admin@arlp.live" target="_blank" rel="noopener noreferrer">
-            <i class="fa-solid fa-envelope fa-sm"></i> admin@arlp.live</a>
-        </div>
-        <p class="lead mb-5">
-          Hi there! I'm Abhi, a passionate developer with a love for exploring new technologies and finding creative
-          solutions
-          to complex problems. My ultimate goal is to become a DevOps engineer, but I'm always eager to learn and grow
-          in other areas, particularly in the fascinating world of Artificial Intelligence and Large Language Models
-          (LLMs).
-          <br><br>I thrive on the challenge of taking existing tools and frameworks and adapting them to create
-          something
-          uniquely mine. This resourcefulness and adaptability extend to my work as a developer, where I enjoy finding
-          innovative solutions to problems by leveraging my skills and experience. When I'm not immersed in code or
-          tinkering with the latest tech, you can often find me pursuing my diverse interests, which range from
-          enjoying
-          quality time with friends and family to indulging in my love for anime, international cinema, and books. If
-          you'd like to connect or discuss anything related to technology or my other passions, feel free to reach
-          out!
-          I'm always excited to meet new people and learn from their experiences.
-        </p>
-
-        <div class="social-icons">
-          <a class="social-icon" target="_blank" rel="noopener noreferrer" href="https://github.com/abhi245y"><i
-              class="fab fa-github"></i></a>
-          <a class="social-icon" target="_blank" rel="noopener noreferrer" href="https://x.com/abhi245y"><i
-              class="fab fa-twitter"></i></a>
-          <a class="social-icon" target="_blank" rel="noopener noreferrer" href="https://reddit/users/abhi245y"><i
-              class="fab fa-reddit"></i></a>
-        </div>
+      <!-- Hero Section -->
+  <section class="hero">
+    <div id="particles-js"></div>
+    <div class="hero-content">
+      <h1 class="mb-0">
+        Abhiram
+        <span class="text-primary">R L</span>
+      </h1>
+      <div class="subheading mb-5">
+        <i class="fa-solid fa-location-dot fa-sm"></i>
+        India, Kerala
+        <a href="mailto:admin@arlp.live" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-envelope fa-sm"></i> admin@arlp.live</a>
       </div>
-    </section>
+      <p>Hi there! I'm Abhi, a passionate developer with a love for exploring new technologies and finding creative solutions to complex problems.</p>
+    </div>
+  </section>
     <hr class="m-0" />
     <!-- Experience-->
     <section class="resume-section" id="experience">
       <div class="resume-section-content">
-        <h2 class="mb-5">Work Experience</h2>
+        <h2 class="section-title">Work Experience</h2>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="flex-grow-1">
             <h3 class="mb-0">Clerical Assistant</h3>
@@ -130,7 +109,7 @@
     <!-- Skills-->
     <section class="resume-section" id="skills">
       <div class="resume-section-content">
-        <h2 class="mb-5">Skills</h2>
+        <h2 class="section-title">Skills</h2>
         <div class="subheading mb-3">Programming Languages &amp; Tools</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item"><i class="fab fa-python"></i></li>
@@ -248,9 +227,10 @@
     <!-- Projects-->
     <section class="resume-section" id="projects">
       <div class="resume-section-content">
-        <h2 class="mb-5">Projects</h2>
+        <h2 class="section-title">Projects</h2>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="flex-grow-1">
+             <div class="project-card">
             <h3 class="mb-0">Where is my bus<a class="project-link" target="_blank" rel="noopener noreferrer" href="https://github.com/abhi245y/Where-Is-My-Bus"><i class="fa-brands fa-github fa-2xs" style="color: #343a40;"></i></a>
               </h3>
             <p>Developed an Android app to track, locate, and inform users about the location of public buses, enabling
@@ -259,28 +239,35 @@
               location services. Implemented a peer-to-peer system where users and drivers could share their location to
               provide real-time bus tracking.</p>
           </div>
+          </div>
         </div>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="flex-grow-1">
+            <div class="project-card">
             <h3 class="mb-0">Watch This<a class="project-link" target="_blank" rel="noopener noreferrer" href="https://github.com/abhi245y/Watch-This"><i class="fa-brands fa-github fa-2xs" style="color: #343a40;"></i></a></h3>
             <p>Created an Android app to help users find where to watch movies, including streaming platforms and sites.
               Integrated Telegram API to fetch movie download links from various Telegram groups. Utilized web scraping
               techniques with Python, Requests, and BeautifulSoup to extract streaming links from multiple websites.
               Developed a backend server using Python Flask and REST API, hosted on Heroku, to scrape and serve movie
               details consistently to the user app.</p>
+              </div>
           </div>
         </div>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">Aniwatch<a class="project-link" target="_blank" rel="noopener noreferrer" href="https://github.com/abhi245y/AniWatch"><i class="fa-brands fa-github fa-2xs" style="color: #343a40;"></i></a></h3>
-            <p>Developed an anime streaming app inspired by YouTube and Netflix, providing a user-friendly experience
+          <div class="project-card">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Aniwatch<a class="project-link" target="_blank" rel="noopener noreferrer" href="https://github.com/abhi245y/AniWatch"><i class="fa-brands fa-github fa-2xs" style="color: #343a40;"></i></a></h3>
+              <p>Developed an anime streaming app inspired by YouTube and Netflix, providing a user-friendly experience
               for anime enthusiasts. Utilized Cloud Firestore for the database and Heroku for hosting. Implemented web
               scraping to gather anime details and used Google Search and other anime API services to enhance the
               dataset. Incorporated features like YouTube-style history and a Netflix-style home screen. Enabled users
               to switch between core reference websites for grabbing anime details.</p>
+            </div>
           </div>
+          
         </div>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="project-card">
           <div class="flex-grow-1">
             <h3 class="mb-0">Mail Automation<a class="project-link" target="_blank" rel="noopener noreferrer" href="https://github.com/abhi245y/Bundle-slip-mail-automator"><i class="fa-brands fa-github fa-2xs" style="color: #343a40;"></i></a></h3>
             <p>Developed a script to automate the process of checking and grabbing specific emails, filtering and
@@ -288,8 +275,10 @@
               standard PDF format, sorts and arranges them based on route and college name, and merges them for easy
               printing. This automation reduced the manual effort from 2 hours to just 15-20 minutes.</p>
           </div>
+          </div>
         </div>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="project-card">
           <div class="flex-grow-1">
             <h3 class="mb-0">Attendance Form Generator<a class="project-link" target="_blank" rel="noopener noreferrer" href="https://github.com/abhi245y/attendanceformgen_v2"><i class="fa-brands fa-github fa-2xs" style="color: #343a40;"></i></a></h3>
             <p>Developed a Python-based attendance form generator to automate the creation of attendance statements for
@@ -297,15 +286,19 @@
               time and improving efficiency.</p>
           </div>
         </div>
+        </div>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="project-card">
           <div class="flex-grow-1">
             <h3 class="mb-0">CD Unit App<a class="project-link" target="_blank" rel="noopener noreferrer" href="https://github.com/abhi245y/cdunitApp"><i class="fa-brands fa-github fa-2xs" style="color: #343a40;"></i></a></h3>
             <p>Created a Python app to digitize and store bundle slip details, reducing the time required for bundle
               inquiries from hours to just a few minutes. The app allows users to search for bundle details quickly,
               eliminating the need for manual searches through physical files.</p>
           </div>
+          </div>
         </div>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="project-card">
           <div class="flex-grow-1">
             <h3 class="mb-0">SLCM Bundles Distribution Automation<a class="project-link" target="_blank" rel="noopener noreferrer" href="https://github.com/abhi245y/slcm-bundles-distribution-automation"><i class="fa-brands fa-github fa-2xs" style="color: #343a40;"></i></a></h3>
             <p>Developed a script to automate the process of bundle allocation for SLCM (Students Life Cycle
@@ -315,13 +308,14 @@
               allocation time from a week to just 1-2 days.</p>
           </div>
         </div>
+        </div>
       </div>
     </section>
     <hr class="m-0" />
     <!-- Interests-->
     <section class="resume-section" id="interests">
       <div class="resume-section-content">
-        <h2 class="mb-5">Interests</h2>
+        <h2 class="section-title">Interests</h2>
         <p class="lead mb-5">
           When I'm not busy coding or tinkering with the latest tech, you can often find me enjoying quality time with
           my friends and family, especially in peaceful, green spaces. I'm a huge fan of anime and international movies,
@@ -347,7 +341,7 @@
     <!-- Education-->
     <section class="resume-section" id="education">
       <div class="resume-section-content">
-        <h2 class="mb-5">Education</h2>
+        <h2 class="section-title">Education</h2>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="flex-grow-1">
             <h3 class="mb-0">University of Kerala</h3>
@@ -363,8 +357,12 @@
   </div>
   <!-- Bootstrap core JS-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <!-- Core theme JS-->
   <script src="js/scripts.js"></script>
+  <script src="js/proto.js"></script>
+  
   <!-- Code injected by live-server -->
   <script>
     // <![CDATA[  <-- For SVG support
