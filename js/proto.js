@@ -103,13 +103,13 @@ particlesJS("particles-js", {
   },
   retina_detect: true,
 });
-window.addEventListener("scroll", function () {
-  var heroSection = document.querySelector(".hero");
-  var scrollPosition = window.pageYOffset;
+// window.addEventListener("scroll", function () {
+//   var heroSection = document.querySelector(".hero");
+//   var scrollPosition = window.pageYOffset;
 
-  if (scrollPosition > heroSection.offsetHeight) {
-    heroSection.style.display = "none";
-  } else {
-    heroSection.style.display = "block";
-  }
-});
+//   if (scrollPosition > heroSection.offsetHeight) {
+//     heroSection.style.display = "none";
+//   } else {
+//     heroSection.style.display = "block";
+//   }
+// });
