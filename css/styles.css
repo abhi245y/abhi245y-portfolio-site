@@ -3876,7 +3876,7 @@ fieldset:disabled .btn {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
   --bs-navbar-color: rgba(0, 0, 0, 0.55);
-  --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
+  /* --bs-navbar-hover-color: rgba(0, 0, 0, 0.7); */
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-brand-padding-y: 0.3125rem;
@@ -4287,7 +4287,7 @@ fieldset:disabled .btn {
 
 .navbar-dark {
   --bs-navbar-color: rgba(255, 255, 255, 0.55);
-  --bs-navbar-hover-color: #156499;
+  --bs-navbar-hover-color: #0a3552;
   --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
   --bs-navbar-active-color: #fff;
   --bs-navbar-brand-color: #fff;
