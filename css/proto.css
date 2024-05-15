@@ -4,12 +4,12 @@
 }
 
 .navbar-nav .nav-link {
-  color: #fff;
+  color: #5f6c75;
   transition: color 0.3s;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #156499;
+  color: #fff;
 }
 
 #particles-js {
